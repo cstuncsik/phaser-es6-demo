@@ -24,9 +24,9 @@ npm run build
 
 Source files are in **client** folder (personally I don't like **src**, in my projects usually there is a **server** folder for node server codes that's why I prefer client)
 
-Gulp task are in **tasks** folder splitted to separate files in **dev** and **prod** folders. There are some redundancy but in this way it is very easy to maintain, scale and copy tasks from one project to another.
+Gulp task are in **tasks** folder as separate files in **dev** and **prod** folders. There are some redundancy but in this way it is very easy to maintain, scale and copy tasks from one project to another.
 
-Development an production builds are going to **builds** folder.
+Development and production builds are going to **builds** folder.
 
 ## Assets
 
