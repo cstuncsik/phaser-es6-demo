@@ -1,7 +1,24 @@
 # Phaser ES6 Demo
 
-This is small demo game to show how you can build a phaser game with next generaion of javascript (ES6/2015).
+This is small shoot'em up demo game to show how you can build a [phaser](http://phaser.io/) game with the next generaion of javascript (ES6/2015).
+
 You can also use this as a boilerplate.
+
+## Technology
+
+The project is based on [Node.js](https://nodejs.org/en/), if you are not familiar with it I'd suggest to check it out first.
+If you are familiar just have a look at **package.json** and gulp tasks in **tasks** folder.
+If you are familiar and lazy just run:
+
+```sh
+npm i && npm run dev
+```
+
+To build production:
+
+```sh
+npm run build
+```
 
 ## Structure
 
@@ -10,16 +27,6 @@ Source files are in **client** folder (personally I don't like **src**, in my pr
 Gulp task are in **tasks** folder splitted to separate files in **dev** and **prod** folders. There are some redundancy but in this way it is very easy to maintain, scale and copy tasks from one project to another.
 
 Development an production builds are going to **builds** folder.
-
-## Technology
-
-The project is based on [Node.js](https://nodejs.org/en/), if you not familiar with it I'd suggest to check it out first.
-If you are familiar just have a look at **package.json** and gulp tasks in **tasks** folder.
-If you are familiar and lazy just run:
-
-```sh
-npm i & npm run dev
-```
 
 ## Assets
 
