@@ -1,0 +1,36 @@
+{"frames": [
+
+{
+	"filename": "smallfighter0001.png",
+	"frame": {"x":1,"y":140,"w":51,"h":137},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":137},
+	"sourceSize": {"w":51,"h":137}
+},
+{
+	"filename": "smallfighter0006.png",
+	"frame": {"x":1,"y":1,"w":57,"h":137},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":137},
+	"sourceSize": {"w":57,"h":137}
+},
+{
+	"filename": "smallfighter0011.png",
+	"frame": {"x":1,"y":279,"w":51,"h":137},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":137},
+	"sourceSize": {"w":51,"h":137}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "smallfighter.png",
+	"format": "RGBA8888",
+	"size": {"w":59,"h":417},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0751b4203909b109edf907157cad9443:62824f174bc469d01fbe635659b1a160:4865d22eb96f798d2494cbc26c0cb598$"
+}
+}

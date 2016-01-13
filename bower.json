@@ -1,0 +1,19 @@
+{
+  "name": "phaser-es6-demo",
+  "description": "",
+  "authors": [
+    "Csaba Tuncsik"
+  ],
+  "license": "WTFPL",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "phaser": "~2.4.4"
+  }
+}
