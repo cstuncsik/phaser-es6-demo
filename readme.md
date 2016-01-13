@@ -1,6 +1,6 @@
 # Phaser ES6 Demo
 
-This is small shoot'em up demo game to show how you can build a [phaser](http://phaser.io/) game with the next generaion of javascript (ES6/2015).
+This is small shoot'em up demo game to show how you can build a [phaser](http://phaser.io/) game with the next generation of javascript (ES6/2015).
 
 You can also use this as a boilerplate.
 
