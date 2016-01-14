@@ -20,6 +20,8 @@ To build production:
 npm run build
 ```
 
+To try it out now click [here](http://cstuncsik.github.io/phaser-es6-demo)
+
 ## Structure
 
 Source files are in **client** folder (personally I don't like **src**, in my projects usually there is a **server** folder for node server codes that's why I prefer client)
