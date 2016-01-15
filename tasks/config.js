@@ -14,11 +14,11 @@ export default (() => {
     };
 
     cfg.globs = {
-        js: [path.join(cfg.paths.src.root, 'js', path.sep)],
-        css: [path.join(cfg.paths.src.root, 'css', path.sep)],
-        img: [path.join(cfg.paths.src.root, 'img', '**', '*')],
-        data: [path.join(cfg.paths.src.root, 'data', '**', '*.json')],
-        audio: [path.join(cfg.paths.src.root, 'audio', '**', '*')]
+        js: path.join(cfg.paths.src.root, 'js', path.sep),
+        css: path.join(cfg.paths.src.root, 'css', path.sep),
+        img: path.join(cfg.paths.src.root, 'img', '**', '*'),
+        data: path.join(cfg.paths.src.root, 'data', '**', '*.json'),
+        audio: path.join(cfg.paths.src.root, 'audio', '**', '*')
     };
 
     Object.keys(cfg.globs).forEach(type => cfg.paths.src[type] = cfg.globs[type]);

@@ -14,7 +14,8 @@ gulp.task('build', () => {
             'img:prod',
             'js:prod'
         ],
-        'html:prod'
+        'html:prod',
+        'rev:prod'
     );
 });
 

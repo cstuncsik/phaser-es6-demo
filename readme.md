@@ -30,6 +30,14 @@ Gulp task are in **tasks** folder as separate files in **dev** and **prod** fold
 
 Development and production builds are going to **builds** folder.
 
+## Features
+
+In production mode (dev mode is nearly just copying files into builds/dev)
+
+- optimizing images
+- minifying html, js and json
+- file revisioning to prevent browser cache
+
 ## Assets
 
 Here you can find links about the images and audio I used.

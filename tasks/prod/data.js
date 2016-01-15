@@ -6,6 +6,6 @@ import jsonMinify from 'gulp-json-minify';
 gulp.task('data:prod', () => {
     return gulp.src(config.paths.src.data)
         .pipe(jsonMinify())
-        .pipe(gulp.dest(config.paths.builds.prod.data))
+        .pipe(gulp.dest(config.paths.builds.tmp.data))
         .on('error', util.log);
 });
