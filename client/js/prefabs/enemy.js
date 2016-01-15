@@ -2,15 +2,15 @@ import Bullet from './bullet';
 
 export default class Enemy extends Phaser.Sprite {
 
-    constructor(data) {
-        super(data.game, data.x, data.y, data.asset, data.frame);
+    constructor({ game, x, y, asset, frame, health, bulletSpeed }) {
+        super(game, x, y, asset, frame);
 
-        this.game = data.game;
+        this.game = game;
 
         this.anchor.setTo(0.5);
         this.scale.setTo(0.8);
-        this.health = data.health;
-        this.maxHealth = data.health;
+        this.health = health;
+        this.maxHealth = health;
         this.game.physics.arcade.enable(this);
 
         this.animations.add('spinning', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], 30, true);
@@ -18,7 +18,7 @@ export default class Enemy extends Phaser.Sprite {
 
         this.bullets = this.game.add.group();
         this.bullets.enableBody = true;
-        this.bulletSpeed = data.bulletSpeed;
+        this.bulletSpeed = bulletSpeed;
 
         this.shotSound = this.game.add.sound('enemyShot');
 
@@ -68,10 +68,10 @@ export default class Enemy extends Phaser.Sprite {
         super.damage(amount);
     }
 
-    reset(data) {
-        super.reset(data.x, data.y, data.health);
-        this.bulletSpeed = data.bulletSpeed;
-        this.body.velocity.x = data.speed.x;
-        this.body.velocity.y = data.speed.y;
+    reset({ x, y, health, bulletSpeed, speed }) {
+        super.reset(x, y, health);
+        this.bulletSpeed = bulletSpeed;
+        this.body.velocity.x = speed.x;
+        this.body.velocity.y = speed.y;
     }
 }

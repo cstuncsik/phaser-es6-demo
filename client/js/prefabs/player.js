@@ -2,23 +2,20 @@ import Bullet from './bullet';
 
 export default class Player extends Phaser.Sprite {
 
-    constructor(data) {
-        super(data.game, data.x, data.y, data.asset, data.frame);
+    constructor({ game, x, y, asset, frame, health }) {
+        super(game, x, y, asset, frame);
 
-        this.game = data.game;
+        this.game = game;
 
         this.anchor.setTo(0.5);
         this.scale.setTo(0.8);
 
-        this.health = data.health;
-        this.maxHealth = data.health;
+        this.health = health;
+        this.maxHealth = health;
 
         this.game.physics.arcade.enable(this);
 
-        this.lastPos = {
-            x: data.x,
-            y: data.y
-        };
+        this.lastPos = {x, y};
 
         this.diff = {
             x: 0,

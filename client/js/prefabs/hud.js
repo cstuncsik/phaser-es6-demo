@@ -1,8 +1,8 @@
 export default class Hud extends Phaser.Group {
-    constructor(data) {
-        super(data.game);
-        this.game = data.game;
-        this.player = data.player;
+    constructor({ game, player }) {
+        super(game);
+        this.game = game;
+        this.player = player;
         this.bg = new Phaser.Image(this.game, 0, 0, 'hudBg');
         this.width = 800;
         this.healthbar = new Phaser.Sprite(this.game, 2, 2, 'healthbar');
