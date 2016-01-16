@@ -24,7 +24,7 @@ To try it out now click [here](http://cstuncsik.github.io/phaser-es6-demo)
 
 ## Structure
 
-Source files are in **client** folder (personally I don't like **src**, in my projects usually there is a **server** folder for node server codes that's why I prefer client)
+Source files are in **src** folder
 
 Gulp task are in **tasks** folder as separate files in **dev** and **prod** folders. There are some redundancy but in this way it is very easy to maintain, scale and copy tasks from one project to another.
 
